@@ -1,0 +1,23 @@
+{
+	"name": "MikanOS",
+	"build": {
+		"dockerfile": "Dockerfile",
+
+		"args": { "VARIANT": "focal" }
+	},
+
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+
+	"extensions": [
+		"ms-vscode.cpptools"
+	],
+
+
+	"remoteUser": "vscode",
+
+	"runArgs": [
+		"--privileged"
+	]
+}
