@@ -2,3 +2,4 @@ mikanos
 disk.img
 *.o
 *.efi
+*.elf
